@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="anime.css">
+        <title>Layout</title>
+        <body>
+          <div class="div1"> OTAKULAND</div>
+          <ul style="background-color: #555555">
+            <li><a href="home.html">home</a></li>
+            <li><a href="manga.html">Manga</a></li>
+            <li><a class="active" href="anime.html">Anime</a></li>
+            <li><a href="formulario.html">registrate</a></li>
+            <li style="float: right;"><input id="searchbar" onkeyup="search_animal()" type="text"
+                name="buscar" placeholder="buscar..." style="width: 300px; height: 20px;" ></li>
+          </ul>
+    <script>
+    function search_animal() {
+        let input = document.getElementById('searchbar').value
+        input=input.toLowerCase();
+        let x = document.getElementsByClassName('animals');
+          
+        for (i = 0; i < x.length; i++) { 
+            if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                x[i].style.display="none";
+            }
+            else {
+                x[i].style.display="list-item";                 
+            }
+        }
+    }</script>
+
+          
+            <div>
+            <h2 style="text-align: center;  color: white; background-color:rgba(14,14,14,255);">destacados</h2>
+
+            <div id='list'>
+            <div class="Chicago">
+                <div class="animals">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=kimetsu">KImetsu-no-Yaiba</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50%" src="https://www.gamerfocus.co/wp-content/uploads/2021/07/KImetsu-no-Yaiba-Demon-Slayer-3.jpg" alt="Zach Lavine"> </a>
+                </div>
+            </article></div>
+            <div class="animals">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=ansatsu+">assassination classroom</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50%" src="https://pm1.narvii.com/6388/f8a5e60cb02a7a154fb9b214fa1e7be089fdc35c_hq.jpg" alt="Lonzo Ball"> </a>
+                </div>
+            </article></div>
+            <div class="animals">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=death+note">death note</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50%" src="https://i1.wp.com/codigoespagueti.com/wp-content/uploads/2021/09/ilustrador-death-note-nuevo-manga-trabaja.jpg?fit=1280%2C720&quality=80&ssl=1" alt="Alex Caruso"> </a>
+                </div>
+            </article></div>
+            <div class="animals">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=naruto">naruto</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50%" src="https://4.bp.blogspot.com/-oFNdpYsMX8k/XoFWeKfi4EI/AAAAAAAAoHM/5UgWX3rS3IEG5WLcAEZFSCy5oNOERkykACLcBGAsYHQ/s1600/Episodios-Naruto-Sin-Relleno.jpg" alt="DeMar DeRozan"> </a>
+                </div>
+            </article></div>
+            <div class="animals">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=parasyte">parasyte </a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50%" src="https://blog.jefsescritor.com/wp-content/uploads/2019/10/parasayte.png" alt="Nikola Vučević"> 
+                    </a>
+                </div>
+           
+            </article></div>
+            <div class="animals">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=boku+no+hero">boku no hero</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50%" src="https://www.animetrono.com/wp-content/uploads/2021/01/orden-ver-boku-no-hero-portada.jpg" alt="Billy Donovan"> 
+                    </a>
+                </div>
+           
+            </article></div>
+            <div class="animals">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=ahiru+no+sora">ahiru no sora</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50%" src="https://areajugones.sport.es/wp-content/uploads/2020/07/ahiru-no-sora.jpg" alt="United Center"> 
+                    </a>
+                </div>
+           
+            </article></div>
+            <div class="animals">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=edens+zero">edens zero</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50%" src="https://images.eurogamer.net/2020/articles/2020-09-26-13-26/Edens_Zero_Games_09_26_20.jpg/EG11/resize/1200x-1/Edens_Zero_Games_09_26_20.jpg" alt="Benny"> 
+                    </a>
+                </div>
+           
+            </article></div>
+            <div class="animals">
+                <article class="Quinteto2021">
+                    <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=haikyu">haikyu</a>
+    
+                    <div class="Bulls">
+                        <a href="#">
+                            <img width="50%" height="50%" src="https://i0.wp.com/elpalomitron.com/wp-content/uploads/2018/02/edici%C3%B3n-Blu-ray-de-la-1%C2%AA-temporada-de-Haikyu-de-Selecta-Visi%C3%B3n-destacada-el-palomitron.jpg?resize=1200%2C600&ssl=1" alt="Benny"> 
+                        </a>
+                    </div>
+               
+                </article></div>
+                <div class="animals">
+                    <article class="Quinteto2021">
+                        <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=sword+art+online">sword art onlien</a>
+        
+                        <div class="Bulls">
+                            <a href="#">
+                                <img width="50%" height="50%" src="https://i1.wp.com/hipertextual.com/wp-content/uploads/2015/02/sword-art-online.jpg?fit=1200%2C750&ssl=1" alt="Benny"> 
+                            </a>
+                        </div>
+                   
+                    </article></div>
+                    <div class="animals">
+                    <article class="Quinteto2021">
+                        <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=konosuba">Konosuba</a>
+        
+                        <div class="Bulls">
+                            <a href="#">
+                                <img width="50%" height="50%" src="https://somoskudasai.com/wp-content/uploads/2021/07/E6lLfa1UcAUvtXj-lowres-scale-2_00x-gigapixel-min.jpg" alt="Benny"> 
+                            </a>
+                        </div>
+                   
+                    </article></div>
+                    <div class="animals">
+                    <article class="Quinteto2021">
+                        <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=Takt+Op.+Destiny">Takt Op. Destiny</a>
+        
+                        <div class="Bulls">
+                            <a href="#">
+                                <img width="50%" height="50%" src="https://images.mubicdn.net/images/film/320709/cache-721506-1633763904/image-w1280.jpg" alt="Benny"> 
+                            </a>
+                        </div>
+                   
+                    </article></div>
+                    <div class="animals">
+                    <article class="Quinteto2021">
+                        <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=Mieruko-chan">Mieruko-chan</a>
+        
+                        <div class="Bulls">
+                            <a href="#">
+                                <img width="50%" height="50%" src="https://ramenparados.com/wp-content/uploads/2021/08/mieruko-chan-anime-cover.jpg" alt="Benny"> 
+                            </a>
+                        </div>
+                   
+                    </article></div>
+                    <div class="animals">
+                    <article class="Quinteto2021">
+                        <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=one+piece">one piece</a>
+        
+                        <div class="Bulls">
+                            <a href="#">
+                                <img width="50%" height="50%" src="https://as01.epimg.net/meristation/imagenes/2021/05/14/noticias/1620977709_149451_1620977973_portada_normal.jpg" alt="Benny"> 
+                            </a>
+                        </div>
+                   
+                    </article></div>
+                    <div class="animals">
+                    <article class="Quinteto2021">
+                        <a class="Bulls2021" href="https://www3.animeflv.net/browse?q=jojo">jojo</a>
+        
+                        <div class="Bulls">
+                            <a href="#">
+                                <img width="50%" height="50%" src="https://blog.twitch.tv/assets/uploads/aa866afa180280df8b59e31ba1d14489.jpeg" alt="Benny"> 
+                            </a>
+                        </div>
+                   
+                    </article></div>
+                    
+            
+        
+        </div>
+    </div>
+        
+
+    </div>
+    <div class="footer">
+        <p class="p1" style="text-align: center;">hola</p>
+
+        </body>
+
+            
+        </html>

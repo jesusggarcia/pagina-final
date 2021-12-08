@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="formulario.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="div1"> OTAKULAND</div>
+
+<ul style="background-color: #555555">
+  <li><a href="home.html">home</a></li>
+  <li><a href="manga.html">manga</a></li>
+  <li><a href="anime.html">anime</a></li>
+  <li><a class="active" href="formulario.html">registrate</a></li>
+</ul>
+        <div class="body">
+        <div class="contact_form">
+            <div class="formulario">
+                <h1>Formulario</h1>
+                <h3>Completa los datos</h3>
+            </div>
+            <form actions="" method="">
+            <p>
+                <label class="colocar_nombre">Nombre</label></br>
+                <input class="text" type="text" required="obligatorio" placeholder="Escribir tu nombre" >
+            </p>
+            <p>
+                <label class="colocar_email">Email</label></br>
+                <input class="text" type="email" placeholder="escribe tu direccion">
+            </p>
+            <p>
+                <label class="colocar_mensaje">Mensaje</label></br>
+                <textarea class="texto_mensaje" placeholder="introduce aqui tu mensaje. . . "> </textarea>
+            </p>
+            <p>Sexo:</p>
+
+                <label for="gen1"> Masculino</label>
+                <input type="checkbox" id="gen1" name="genero1" value="Masculino"></br>
+                <label for="gen2"> femenino</label>
+                <input type="checkbox" id="gen2" name="genero2" value="femenino"></br>
+                <label for="gen3"> Prefiero no contestar</label>
+                <input type="checkbox" id="gen3" name="genero3" value="no contestar"></br>
+            <p>
+                <p>fecha de nacimiento</p>
+                <input type="date" required="obligatorio" name="date_control"/>
+                <button type="submit">Enviar datos</button>
+            </p>
+            </form> 
+    </body> 
+        </html>
